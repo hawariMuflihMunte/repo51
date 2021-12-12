@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 1200px;
+}
+
+.hide-display {
+    z-index: -1;
+    visibility: hidden;
+}
+
+div#navbar-fixed.navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    place-items: center;
+    place-content: center;
+    padding: 1.025vh;
+    box-shadow: 0 3px 4px grey;
+    transition: 0.6s ease-in-out;
+    z-index: 10;
+}
+
+div#navbar-fixed.navigation-bar.not-scroll-down-nav {
+    box-shadow: none;
+}
+
+.scroll-down-nav {
+    box-shadow: 0 30px 4px gray;
+}
+
+p.justify-text {
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    .my-photo {
+        max-height: 400px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .my-photo {
+        max-height: 500px;
+    }
+}
+
+.lambda-logo {
+    max-width: 120px;
+}
+
+@media screen and (max-width: 600px) {
+    .lambda-logo {
+        max-height: 80px;
+    }
+}
+
+.content-link:hover,
+footer.footer-page  a.footer-link:hover {
+    text-decoration: underline !important;
+}
+
+a.social-account {
+    display: flex;
+    flex-flow: row nowrap;
+    place-items: center;
+    place-content: center space-between;
+    transition: opacity 0.6s ease-in;
+}
+
+a.social-account > i {
+    margin: 0 0.485vw;
+}
+
+a.social-account:hover {
+    opacity: 0.7;
+}
