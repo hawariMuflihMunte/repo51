@@ -1,3 +1,3 @@
-# repo51
+# WebsiteSyai
 
-Hallo Guys, Welcome di Github saya :D
+Hallo Guys, Welcome to my Website, disini saya cuma membagikan sebuah info-info saja :D
